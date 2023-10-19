@@ -12,7 +12,7 @@ const connect = () => {
     MONGO_URL,
     {
       dbName: 'gifchat',
-      useNewURLParser: true,
+      useNewUrlParser: true,
     },
     (error) => {
       if (error) {
